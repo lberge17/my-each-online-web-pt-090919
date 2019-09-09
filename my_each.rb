@@ -3,7 +3,5 @@ def my_each(array)
   if block_given?
     yield(array[i])
     i += 1
-  else
-    puts "No block given..."
   end
 end
